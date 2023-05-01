@@ -12,7 +12,7 @@ public class WorldCtrl : MonoBehaviour
         if (context.performed)
         {
             _Dream.SetActive(true);
-            _Night.SetActive(false);
+            _Night.SetActive(true);
             Debug.Log("DreamAppear" + context.phase);
         }
     }
@@ -21,7 +21,7 @@ public class WorldCtrl : MonoBehaviour
         if (context.performed)
         {
             _Dream.SetActive(false);
-            _Night.SetActive(true);
+            _Night.SetActive(false);
             Debug.Log("NightAppear" + context.phase);
         }
     }
@@ -30,7 +30,7 @@ public class WorldCtrl : MonoBehaviour
         if (context.performed)
         {
             _Dream.SetActive(false);
-            _Night.SetActive(false);
+            _Night.SetActive(true);
             Debug.Log("NormalAppear" + context.phase);
         }
     }
