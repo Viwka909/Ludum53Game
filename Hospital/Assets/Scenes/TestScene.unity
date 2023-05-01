@@ -1433,6 +1433,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Plr
       objectReference: {fileID: 0}
+    - target: {fileID: 972309859094575346, guid: 9caaaf06b2c74394bb82e6ec19cb18b1, type: 3}
+      propertyPath: m_Interpolate
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 972309859094575346, guid: 9caaaf06b2c74394bb82e6ec19cb18b1, type: 3}
+      propertyPath: m_CollisionDetection
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 972309859094575358, guid: 9caaaf06b2c74394bb82e6ec19cb18b1, type: 3}
       propertyPath: m_RootOrder
       value: 8
